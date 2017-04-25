@@ -1,6 +1,6 @@
 # npmtest-nexpect
 
-#### test coverage for  [nexpect (v0.5.0)](https://github.com/nodejitsu/nexpect)  [![npm package](https://img.shields.io/npm/v/npmtest-nexpect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nexpect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nexpect.svg)](https://travis-ci.org/npmtest/node-npmtest-nexpect)
+#### basic test coverage for  [nexpect (v0.5.0)](https://github.com/nodejitsu/nexpect)  [![npm package](https://img.shields.io/npm/v/npmtest-nexpect.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-nexpect) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-nexpect.svg)](https://travis-ci.org/npmtest/node-npmtest-nexpect)
 
 #### Spawns and interacts with child processes using spawn / expect commands
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-nexpect/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-nexpect/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-nexpect/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-nexpect/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nexpect/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nexpect/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-nexpect/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-nexpect/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-nexpect/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-nexpect/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-nexpect/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-nexpect/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
     "scripts": {
         "test": "vows --spec"
     },
-    "version": "0.5.0"
+    "version": "0.5.0",
+    "bin": {}
 }
 ```
 
